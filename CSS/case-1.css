@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  background-color: burlywood;
+}
+
+.red-square {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.red-top-left-big-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  border-bottom-right-radius: 100%;
+}
+
+.red-top-right-small-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  background-color: white;
+  border-bottom-left-radius: 100%;
+}
+
+.red-bottom-right-small-square {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8vw;
+  height: 8vw;
+  background-color: white;
+}
+
+.whole-screen-middle-circle {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-color: red;
+}
+
+.red {
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+
+.square {
+  width: 8vw;
+  height: 8vw;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 18vw;
+  height: 18vw;
+  background-color: white;
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.green-square {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgb(14, 98, 14);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.green-top-right-big-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  border-bottom-left-radius: 100%;
+}
+
+.green-top-left-small-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+  height: 7vw;
+  background-color: white;
+  border-bottom-right-radius: 100%;
+}
+
+.green-bottom-left-small-square {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8vw;
+  height: 8vw;
+  background-color: white;
+}
+
+.green {
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
+
+.yellow-square {
+  width: 50vw;
+  height: 50vh;
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.yellow-bottom-left-big-circle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  border-top-right-radius: 100%;
+}
+
+.yellow-bottom-right-small-circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  background-color: white;
+  border-top-left-radius: 100%;
+}
+
+.yellow-top-right-small-square {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8vw;
+  height: 8vw;
+  background-color: white;
+}
+
+.yellow {
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.pink-square {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgb(238, 83, 148);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pink-bottom-right-big-circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  border-top-left-radius: 100%;
+}
+
+.pink-bottom-left-small-circle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 7vw;
+  height: 7vw;
+  background-color: white;
+  border-top-right-radius: 100%;
+}
+
+.pink-top-left-small-square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8vw;
+  height: 8vw;
+  background-color: white;
+}
+
+.pink {
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
