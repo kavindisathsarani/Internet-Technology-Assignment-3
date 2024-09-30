@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+  padding: 7vw;
+  border: 1px solid black;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: orangered;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: rgb(210, 60, 110);
+}
+
+.box6 {
+  background-color: blue;
+}
+
+.box7 {
+  background-color: brown;
+}
+
+.box8 {
+  background-color: violet;
+}
+
+.box9 {
+  background-color: darkblue;
+}
+
+.box10 {
+  background-color: yellow;
+}
+
+.box11 {
+  background-color: gray;
+}
+
+.box12 {
+  background-color: aqua;
+}
