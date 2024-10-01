@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrollbars when the circle moves off-screen */
+}
+
+.gray-circle {
+  background-color: gray;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red-circle {
+  background-color: red;
+  border-radius: 100%;
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.purple-circle,
+.blue-circle,
+.orange-circle {
+  border-radius: 100%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/* Purple Circle Animation */
+.purple-circle {
+  background-color: purple;
+  animation: purpleAnimation 18s ease-in-out forwards;
+}
+
+/* Blue Circle Animation */
+.blue-circle {
+  background-color: blue;
+  animation: blueAnimation 18s ease-in-out forwards;
+  animation-delay: 6s; /* Starts after purple circle's upward movement */
+}
+
+/* Orange Circle Animation */
+.orange-circle {
+  background-color: orange;
+  animation: orangeAnimation 18s ease-in-out forwards;
+  animation-delay: 12s; /* Starts after blue circle moves */
+}
+
+/* Purple Circle Animation */
+@keyframes purpleAnimation {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  20% {
+    transform: translate(-50%, -150%); /* Moves off-screen upwards */
+  }
+  100% {
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Comes back to the starting point at the end */
+  }
+}
+
+/* Blue Circle Animation */
+@keyframes blueAnimation {
+  0% {
+    transform: translate(-50%, 100%); /* Starts from the bottom */
+  }
+  20% {
+    transform: translate(-50%, 0%); /* Moves up to the center */
+  }
+  40% {
+    transform: translate(-50%, -150%); /* Moves off-screen upwards */
+  }
+  100% {
+    transform: translate(-50%, -150%); /* Disappears off-screen */
+  }
+}
+
+/* Orange Circle Animation */
+@keyframes orangeAnimation {
+  0% {
+    transform: translate(-50%, 100%); /* Starts from the bottom */
+  }
+  20% {
+    transform: translate(-50%, 0%); /* Stops at the center */
+  }
+  40% {
+    transform: translate(100%, 0%); /* Moves downwards and disappears */
+  }
+  100% {
+    transform: translate(100%, 0%); /* Remains off-screen */
+  }
+}
