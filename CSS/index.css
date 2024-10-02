@@ -10,23 +10,47 @@ body {
   background-color: lightblue;
 }
 
-.case-list li:hover,
-.case-list li:hover a {
+nav ol li a:hover {
   color: rgb(87, 201, 239);
 }
 
+.image {
+  position: relative;
+  left: 40%;
+}
 .container {
-  margin-left: 500px;
-  border: 1px solid black;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: aliceblue;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkblue;
   border-radius: 12px;
-  width: 500px;
-  height: 500px;
-  padding: 10px;
-  background-color: white;
+}
+
+p {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  font-family: sans-serif;
+}
+
+nav li a {
+  display: flex;
+  margin: 20px;
   font-size: 20px;
 }
 
-a[target="_blank"] {
+a {
   color: black;
   text-decoration: none;
 }
